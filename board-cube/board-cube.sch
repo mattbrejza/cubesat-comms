@@ -6035,6 +6035,76 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Ava">
+<packages>
+<package name="GOLLEDGE_SAW">
+<smd name="E" x="-1.8" y="0" dx="1.8" dy="0.7" layer="1"/>
+<smd name="B" x="1.8" y="0" dx="1.8" dy="0.7" layer="1"/>
+<smd name="D" x="-1.8" y="1.27" dx="1.8" dy="0.7" layer="1"/>
+<smd name="C" x="1.8" y="1.27" dx="1.8" dy="0.7" layer="1"/>
+<smd name="F" x="-1.8" y="-1.27" dx="1.8" dy="0.7" layer="1"/>
+<smd name="A" x="1.35" y="-1.27" dx="2.7" dy="0.7" layer="1"/>
+<wire x1="-1.9" y1="0.79375" x2="-1.9" y2="0.47625" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-0.47625" x2="-1.9" y2="-0.79375" width="0.127" layer="21"/>
+<wire x1="1.9" y1="-0.47625" x2="1.9" y2="-0.79375" width="0.127" layer="21"/>
+<wire x1="1.9" y1="0.79375" x2="1.9" y2="0.47625" width="0.127" layer="21"/>
+</package>
+<package name="GOLLEDGE-7X5-SAW">
+<smd name="10" x="-3.9" y="1.27" dx="1.4" dy="0.8" layer="1"/>
+<smd name="9" x="-3.9" y="-1.27" dx="1.4" dy="0.8" layer="1"/>
+<smd name="5" x="3.9" y="-1.27" dx="1.4" dy="0.8" layer="1"/>
+<smd name="4" x="3.9" y="1.27" dx="1.4" dy="0.8" layer="1"/>
+<smd name="2" x="0" y="2.2" dx="1.4" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.27" y="2.2" dx="1.4" dy="0.8" layer="1" rot="R90"/>
+<smd name="3" x="1.27" y="2.2" dx="1.4" dy="0.8" layer="1" rot="R90"/>
+<smd name="8" x="-1.27" y="-2.2" dx="1.4" dy="0.8" layer="1" rot="R90"/>
+<smd name="7" x="0" y="-2.2" dx="1.4" dy="0.8" layer="1" rot="R90"/>
+<smd name="6" x="1.27" y="-2.2" dx="1.4" dy="0.8" layer="1" rot="R90"/>
+<circle x="-1.190625" y="0" radius="0.959090625" width="0.127" layer="21"/>
+<text x="-1.74625" y="-0.714375" size="1.27" layer="21">T</text>
+</package>
+</packages>
+<symbols>
+<symbol name="GOLLEDGE_SAW">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="IN" x="-15.24" y="0" visible="pin" length="middle"/>
+<pin name="OUT" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" visible="pin" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GOLLEDGE_SAW_FILTER">
+<gates>
+<gate name="G$1" symbol="GOLLEDGE_SAW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GOLLEDGE_SAW">
+<connects>
+<connect gate="G$1" pin="GND" pad="A C D F"/>
+<connect gate="G$1" pin="IN" pad="B"/>
+<connect gate="G$1" pin="OUT" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TA1581A" package="GOLLEDGE-7X5-SAW">
+<connects>
+<connect gate="G$1" pin="GND" pad="1 2 3 5 6 7 8 10"/>
+<connect gate="G$1" pin="IN" pad="9"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6255,6 +6325,12 @@ Source: www.kingbright.com</description>
 <part name="GND77" library="supply1" deviceset="GND" device=""/>
 <part name="LED7" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
 <part name="R14" library="passives-7351" deviceset="RESISTOR" device="0603-N"/>
+<part name="U$7" library="Ava" deviceset="GOLLEDGE_SAW_FILTER" device=""/>
+<part name="X11" library="con-coax" deviceset="SMA-" device="142-0711-821/826"/>
+<part name="X12" library="con-coax" deviceset="SMA-" device="142-0711-821/826"/>
+<part name="GND78" library="supply1" deviceset="GND" device=""/>
+<part name="GND79" library="supply1" deviceset="GND" device=""/>
+<part name="GND80" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6497,6 +6573,12 @@ Source: www.kingbright.com</description>
 <instance part="GND77" gate="1" x="0" y="-167.64"/>
 <instance part="LED7" gate="G$1" x="185.42" y="127"/>
 <instance part="R14" gate="G$1" x="185.42" y="134.62" rot="R270"/>
+<instance part="U$7" gate="G$1" x="261.62" y="-175.26"/>
+<instance part="X11" gate="G1" x="281.94" y="-175.26" rot="MR0"/>
+<instance part="X12" gate="G1" x="241.3" y="-175.26"/>
+<instance part="GND78" gate="1" x="243.84" y="-182.88" rot="MR0"/>
+<instance part="GND79" gate="1" x="279.4" y="-182.88" rot="MR0"/>
+<instance part="GND80" gate="1" x="261.62" y="-193.04" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -6940,6 +7022,11 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R13" gate="G$1" pin="P$2"/>
 <pinref part="GND77" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="GND"/>
+<pinref part="GND80" gate="1" pin="GND"/>
+<wire x1="261.62" y1="-187.96" x2="261.62" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -8187,6 +8274,20 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="LED7" gate="G$1" pin="A"/>
 <pinref part="R14" gate="G$1" pin="P$2"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="X11" gate="G1" pin="1"/>
+<pinref part="U$7" gate="G$1" pin="OUT"/>
+<wire x1="279.4" y1="-175.26" x2="276.86" y2="-175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="IN"/>
+<pinref part="X12" gate="G1" pin="1"/>
+<wire x1="246.38" y1="-175.26" x2="243.84" y2="-175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

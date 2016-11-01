@@ -1117,10 +1117,15 @@ distributor RS 112-3794</description>
 <text x="-2" y="-8" size="1.016" layer="27" font="vector" ratio="14">&gt;VALUE</text>
 </package>
 <package name="LNA_MMM1362">
-<smd name="3" x="1.3" y="2.2" dx="0.95" dy="0.5" layer="1" rot="R90"/>
-<smd name="2" x="1.15" y="0" dx="0.95" dy="0.8" layer="1" rot="R90" thermals="no"/>
-<smd name="1" x="0" y="0" dx="0.95" dy="0.5" layer="1" rot="R90"/>
-<smd name="4" x="0" y="2.2" dx="0.95" dy="0.5" layer="1" rot="R90" thermals="no"/>
+<smd name="3" x="1.3" y="1.6" dx="0.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="1.15" y="0" dx="0.8" dy="0.9" layer="1" rot="R90" thermals="no"/>
+<smd name="1" x="0" y="0" dx="0.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="0" y="1.6" dx="0.8" dy="0.6" layer="1" rot="R90" thermals="no"/>
+<wire x1="-0.3" y1="1.2" x2="1.6" y2="1.2" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.2" x2="1.6" y2="0.4" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.4" x2="-0.3" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0.4" x2="-0.3" y2="1.2" width="0.127" layer="21"/>
+<circle x="0" y="0.7" radius="0.1" width="0.127" layer="21"/>
 </package>
 <package name="QFN3X3-6">
 <description>&lt;b&gt;16-Lead Plastic QFN (3mm × 3mm)&lt;/b&gt;&lt;p&gt;
@@ -1449,7 +1454,7 @@ Source: http://cds.linear.com/docs/en/datasheet/3645f.pdf&lt;br&gt;</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="LNA_COMMON">
+<deviceset name="LNA_COMMON" prefix="IC">
 <gates>
 <gate name="G$1" symbol="LNA" x="0" y="0"/>
 </gates>
@@ -5576,7 +5581,7 @@ Source: www.kingbright.com</description>
 <part name="L9" library="passives-7351" deviceset="INDUCTOR" device="0603-N" value="27u"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="C44" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="??"/>
-<part name="U$5" library="CubeSat3" deviceset="LNA_COMMON" device=""/>
+<part name="IC10" library="CubeSat3" deviceset="LNA_COMMON" device=""/>
 <part name="C27" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="??"/>
 <part name="L11" library="passives-7351" deviceset="INDUCTOR" device="0603-N" value="??"/>
 <part name="C45" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="??"/>
@@ -5954,7 +5959,7 @@ Source: www.kingbright.com</description>
 <instance part="L9" gate="G$1" x="129.54" y="-210.82"/>
 <instance part="GND35" gate="1" x="139.7" y="-226.06"/>
 <instance part="C44" gate="G$1" x="162.56" y="-220.98" rot="R90"/>
-<instance part="U$5" gate="G$1" x="182.88" y="-220.98" rot="MR0"/>
+<instance part="IC10" gate="G$1" x="182.88" y="-220.98" rot="MR0"/>
 <instance part="C27" gate="G$1" x="195.58" y="-220.98" rot="R90"/>
 <instance part="L11" gate="G$1" x="172.72" y="-203.2" rot="R90"/>
 <instance part="C45" gate="G$1" x="180.34" y="-203.2" rot="R180"/>
@@ -6406,9 +6411,9 @@ Source: www.kingbright.com</description>
 <pinref part="GND33" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="2"/>
+<pinref part="IC10" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="-228.6" x2="182.88" y2="-231.14" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="4"/>
+<pinref part="IC10" gate="G$1" pin="4"/>
 <wire x1="182.88" y1="-228.6" x2="181.61" y2="-228.6" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="-228.6" x2="181.61" y2="-227.33" width="0.1524" layer="91"/>
 <pinref part="GND52" gate="1" pin="GND"/>
@@ -7232,7 +7237,7 @@ Source: www.kingbright.com</description>
 <wire x1="172.72" y1="-208.28" x2="172.72" y2="-220.98" width="0.1524" layer="91"/>
 <pinref part="C44" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="-220.98" x2="167.64" y2="-220.98" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="RF_OUT"/>
+<pinref part="IC10" gate="G$1" pin="RF_OUT"/>
 <wire x1="172.72" y1="-220.98" x2="173.99" y2="-220.98" width="0.1524" layer="91"/>
 <junction x="172.72" y="-220.98"/>
 </segment>
@@ -7240,7 +7245,7 @@ Source: www.kingbright.com</description>
 <net name="N$46" class="0">
 <segment>
 <pinref part="C27" gate="G$1" pin="1"/>
-<pinref part="U$5" gate="G$1" pin="RF_IN"/>
+<pinref part="IC10" gate="G$1" pin="RF_IN"/>
 <wire x1="193.04" y1="-220.98" x2="190.5" y2="-220.98" width="0.1524" layer="91"/>
 </segment>
 </net>

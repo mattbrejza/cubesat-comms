@@ -58,10 +58,15 @@
 <library>
 <packages>
 <package name="LNA_MMM1362">
-<smd name="3" x="1.3" y="2.2" dx="0.95" dy="0.5" layer="1" rot="R90"/>
-<smd name="2" x="1.15" y="0" dx="0.95" dy="0.8" layer="1" rot="R90" thermals="no"/>
-<smd name="1" x="0" y="0" dx="0.95" dy="0.5" layer="1" rot="R90"/>
-<smd name="4" x="0" y="2.2" dx="0.95" dy="0.5" layer="1" rot="R90" thermals="no"/>
+<smd name="3" x="1.3" y="1.6" dx="0.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="1.15" y="0" dx="0.8" dy="0.9" layer="1" rot="R90" thermals="no"/>
+<smd name="1" x="0" y="0" dx="0.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="0" y="1.6" dx="0.8" dy="0.6" layer="1" rot="R90" thermals="no"/>
+<wire x1="-0.3" y1="1.2" x2="1.6" y2="1.2" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.2" x2="1.6" y2="0.4" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.4" x2="-0.3" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0.4" x2="-0.3" y2="1.2" width="0.127" layer="21"/>
+<circle x="0" y="0.7" radius="0.1" width="0.127" layer="21"/>
 </package>
 <package name="PL-176">
 <smd name="6" x="0" y="4.064" dx="1.778" dy="1.016" layer="1" rot="R90"/>
@@ -458,7 +463,7 @@ Source: http://cds.linear.com/docs/en/datasheet/3645f.pdf&lt;br&gt;</description
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LNA_COMMON">
+<deviceset name="LNA_COMMON" prefix="IC">
 <gates>
 <gate name="G$1" symbol="LNA" x="0" y="0"/>
 </gates>

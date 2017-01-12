@@ -9,9 +9,9 @@
 <grid distance="0.4" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.2" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -20,8 +20,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -408,70 +408,70 @@ PA EN</text>
 </package>
 <package name="PM_S-PQFP-G64">
 <description>by RobG (430things/43oh/Tindie)</description>
-<smd name="1" x="-5.6" y="3.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="2" x="-5.6" y="3.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="3" x="-5.6" y="2.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="4" x="-5.6" y="2.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="5" x="-5.6" y="1.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="6" x="-5.6" y="1.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="7" x="-5.6" y="0.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="8" x="-5.6" y="0.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="9" x="-5.6" y="-0.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="10" x="-5.6" y="-0.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="11" x="-5.6" y="-1.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="12" x="-5.6" y="-1.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="13" x="-5.6" y="-2.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="14" x="-5.6" y="-2.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="15" x="-5.6" y="-3.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="16" x="-5.6" y="-3.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="17" x="-3.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="18" x="-3.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="19" x="-2.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="20" x="-2.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="21" x="-1.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="22" x="-1.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="23" x="-0.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="24" x="-0.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="25" x="0.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="26" x="0.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="27" x="1.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="28" x="1.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="29" x="2.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="30" x="2.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="31" x="3.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="32" x="3.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="33" x="5.6" y="-3.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="34" x="5.6" y="-3.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="35" x="5.6" y="-2.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="36" x="5.6" y="-2.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="37" x="5.6" y="-1.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="38" x="5.6" y="-1.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="39" x="5.6" y="-0.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="40" x="5.6" y="-0.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="41" x="5.6" y="0.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="42" x="5.6" y="0.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="43" x="5.6" y="1.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="44" x="5.6" y="1.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="45" x="5.6" y="2.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="46" x="5.6" y="2.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="47" x="5.6" y="3.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="48" x="5.6" y="3.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="no"/>
-<smd name="49" x="3.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="50" x="3.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="51" x="2.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="52" x="2.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="53" x="1.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="54" x="1.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="55" x="0.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="56" x="0.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="57" x="-0.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="58" x="-0.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="59" x="-1.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="60" x="-1.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="61" x="-2.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="62" x="-2.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="63" x="-3.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
-<smd name="64" x="-3.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="1" x="-5.6" y="3.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="2" x="-5.6" y="3.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="3" x="-5.6" y="2.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="4" x="-5.6" y="2.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="5" x="-5.6" y="1.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="6" x="-5.6" y="1.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="7" x="-5.6" y="0.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="8" x="-5.6" y="0.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="9" x="-5.6" y="-0.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="10" x="-5.6" y="-0.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="11" x="-5.6" y="-1.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="12" x="-5.6" y="-1.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="13" x="-5.6" y="-2.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="14" x="-5.6" y="-2.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="15" x="-5.6" y="-3.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="16" x="-5.6" y="-3.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="17" x="-3.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="18" x="-3.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="19" x="-2.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="20" x="-2.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="21" x="-1.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="22" x="-1.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="23" x="-0.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="24" x="-0.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="25" x="0.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="26" x="0.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="27" x="1.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="28" x="1.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="29" x="2.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="30" x="2.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="31" x="3.25" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="32" x="3.75" y="-5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="33" x="5.6" y="-3.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="34" x="5.6" y="-3.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="35" x="5.6" y="-2.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="36" x="5.6" y="-2.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="37" x="5.6" y="-1.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="38" x="5.6" y="-1.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="39" x="5.6" y="-0.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="40" x="5.6" y="-0.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="41" x="5.6" y="0.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="42" x="5.6" y="0.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="43" x="5.6" y="1.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="44" x="5.6" y="1.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="45" x="5.6" y="2.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="46" x="5.6" y="2.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="47" x="5.6" y="3.25" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="48" x="5.6" y="3.75" dx="0.3" dy="1.6" layer="1" rot="R270" stop="yes"/>
+<smd name="49" x="3.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="50" x="3.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="51" x="2.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="52" x="2.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="53" x="1.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="54" x="1.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="55" x="0.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="56" x="0.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="57" x="-0.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="58" x="-0.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="59" x="-1.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="60" x="-1.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="61" x="-2.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="62" x="-2.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="63" x="-3.25" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
+<smd name="64" x="-3.75" y="5.6" dx="1.6" dy="0.3" layer="1" rot="R270" stop="yes"/>
 <text x="-4.27" y="6.715" size="1.27" layer="25">&gt;NAME</text>
 <rectangle x1="-5.5749" y1="3.275" x2="-5.2749" y2="4.2248" layer="51" rot="R270"/>
 <rectangle x1="-5.5748" y1="2.7751" x2="-5.275" y2="3.7249" layer="51" rot="R270"/>
@@ -2106,13 +2106,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.82" y="21.4456" size="0.8128" layer="25" font="vector" ratio="14" rot="SR90"/>
 </element>
 <element name="C45" library="passives-7351" package="C0603-N" value="1.8n" x="15.2" y="27.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.75890625" y="26.700921875" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="NAME" x="13.75890625" y="28.300921875" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
 </element>
 <element name="C52" library="passives-7351" package="C0603-N" value="47n" x="15.2" y="29.2" smashed="yes">
-<attribute name="NAME" x="13.64109375" y="30.099078125" size="0.8128" layer="25" font="vector" ratio="14"/>
+<attribute name="NAME" x="13.75890625" y="29.700921875" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
 </element>
 <element name="C55" library="passives-7351" package="C0603-N" value="10n" x="15.2" y="30.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.75890625" y="29.900921875" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="NAME" x="13.75890625" y="31.300921875" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
 </element>
 <element name="R12" library="passives-7351" package="R0603-N" value="56k 0.5%" x="24.4" y="24.8" smashed="yes">
 <attribute name="NAME" x="26.04109375" y="24.499078125" size="0.8128" layer="25" font="vector" ratio="14"/>
@@ -2151,19 +2151,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.04109375" y="21.299078125" size="0.8128" layer="25" font="vector" ratio="14"/>
 </element>
 <element name="L3" library="passives-7351" package="L0603-N" value="56n" x="19.2" y="28.4" smashed="yes">
-<attribute name="NAME" x="17.48340625" y="29.270315625" size="0.8128" layer="25" font="vector" ratio="14"/>
+<attribute name="NAME" x="18.68340625" y="29.070315625" size="0.8128" layer="25" font="vector" ratio="14"/>
 </element>
 <element name="C58" library="passives-7351" package="C0603-N" value="5.1p" x="21.2" y="32.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="20.300921875" y="30.84109375" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="NAME" x="22.900921875" y="31.44109375" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
 </element>
 <element name="L6" library="passives-7351" package="L0603-N" value="27n" x="15.2" y="32.4" smashed="yes">
-<attribute name="NAME" x="13.48340625" y="33.270315625" size="0.8128" layer="25" font="vector" ratio="14"/>
+<attribute name="NAME" x="14.68340625" y="33.070315625" size="0.8128" layer="25" font="vector" ratio="14"/>
 </element>
 <element name="C57" library="passives-7351" package="C0603-N" value="5.1p" x="18" y="32.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.100921875" y="30.84109375" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="NAME" x="17.500921875" y="31.64109375" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
 </element>
 <element name="L7" library="passives-7351" package="L0603-N" value="27u" x="19.6" y="32.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.729684375" y="30.68340625" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="NAME" x="20.51659375" y="30.929684375" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
 </element>
 <element name="C69" library="passives-7351" package="C0603-N" value="??" x="26.4" y="42.8" smashed="yes">
 <attribute name="NAME" x="24.84109375" y="43.699078125" size="0.8128" layer="25" font="vector" ratio="14"/>
@@ -2222,7 +2222,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.359078125" y="5.82890625" size="0.8128" layer="25" font="vector" ratio="14" rot="R270"/>
 </element>
 <element name="C6" library="passives-7351" package="C0603-N" value="2u2" x="19.12" y="8.06" smashed="yes">
-<attribute name="NAME" x="17.56109375" y="8.959078125" size="0.8128" layer="25" font="vector" ratio="14"/>
+<attribute name="NAME" x="18.56109375" y="8.759078125" size="0.8128" layer="25" font="vector" ratio="14"/>
 </element>
 <element name="C1" library="passives-7351" package="C0603-N" value="10n" x="19.2" y="2.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.74109375" y="0.699078125" size="0.8128" layer="25" font="vector" ratio="14"/>
@@ -2293,11 +2293,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.570921875" y="8.39109375" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
 </element>
 <element name="LED2" library="dtb" package="CHIP-LED0603" value="" x="5.79" y="8.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.155" y="9.455" size="0.8128" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="5.155" y="6.915" size="1.27" layer="27"/>
 </element>
 <element name="R5" library="passives-7351" package="R0603-N" value="" x="9.36" y="8.93" smashed="yes">
-<attribute name="NAME" x="7.80109375" y="9.829078125" size="0.8128" layer="25" font="vector" ratio="14"/>
+<attribute name="NAME" x="11.00109375" y="8.629078125" size="0.8128" layer="25" font="vector" ratio="14"/>
 </element>
 <element name="FL1" library="Ava" package="GOLLEDGE_SAW" value="GOLLEDGE_SAW_FILTER" x="7.84" y="63.18" smashed="yes" rot="R90"/>
 <element name="X5" library="con-coax" package="BU-SMA-V" value="BU-SMA-V" x="7.73" y="42.76" smashed="yes">
@@ -2528,10 +2527,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="74.35" y="5.365" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="L8" library="passives-7351" package="L0603-N" value="15n" x="18.8" y="34.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="20.51659375" y="33.929684375" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="NAME" x="20.28340625" y="34.470315625" size="0.8128" layer="25" font="vector" ratio="14"/>
 </element>
 <element name="C60" library="passives-7351" package="C0603-N" value="" x="15.2" y="34.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.75890625" y="33.900921875" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="NAME" x="13.75890625" y="35.100921875" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
 </element>
 <element name="IC6" library="cube-parts" package="TSSOP20" value="TXB0108PW" x="74.19" y="20.12" smashed="yes">
 <attribute name="NAME" x="70.4944" y="18.1372" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
@@ -2561,7 +2560,7 @@ design rules under a new name.</description>
 </element>
 <element name="JP2" library="SparkFun-Connectors" package="1X02" value="M02PTH" x="41.36" y="4.29" smashed="yes" rot="R90"/>
 <element name="R3" library="passives-7351" package="R0603-N" value="0.2" x="43.6" y="5.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.700921875" y="4.04109375" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="NAME" x="44.35890625" y="7.900921875" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
 </element>
 <element name="IC77" library="SparkFun-DigitalIC" package="SOT23-5" value="74LVC1G08" x="15.6" y="72" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="10841" x="-42.82" y="183.76" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2580,7 +2579,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.24109375" y="68.399078125" size="0.8128" layer="25" font="vector" ratio="14"/>
 </element>
 <element name="R4" library="passives-7351" package="R0603-N" value="10k" x="45.2" y="5.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="44.300921875" y="4.04109375" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="NAME" x="46.15890625" y="7.900921875" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>
 </element>
 <element name="Q2" library="transistor-small-signal" package="SOT23" value="BSS84" x="40.56" y="49.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.525" y="52.555" size="0.8128" layer="25" font="vector" ratio="14" rot="R180"/>

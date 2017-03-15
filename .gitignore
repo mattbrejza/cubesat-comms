@@ -22,6 +22,20 @@ eagle.epf
 *.sts
 *.crc
 *.crs
+*.ger
+*.GBL
+*.GBP
+*.GBS
+*.GKO
+*.GBO
+*drills*.TXT
+*.G1
+*.G2
+*.ger
+*.GTL
+*.GTP
+*.GTO
+*.GTS
 
 *.dri
 *.drl

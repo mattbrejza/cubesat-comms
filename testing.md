@@ -15,6 +15,7 @@ Current: 104.8 mA; 5V
 
 Cal: 10dBm on siggen gives 8.5dBm on specan
 1+dB BW - 115MHz - 170MHz
+see c.bmp; b.bmp
 
 Tek000003 - 10dBm into specan
 Tek000004 - -3dBm into PA into specan
@@ -44,3 +45,7 @@ Tek000007 - 5dBm in to PA
 Tek000008 - 0dBm into PA
 
 1dB BW - pretty wide, no matching components...
+see r.png; n.bmp
+
+
+w.bmp - WTF cable?!

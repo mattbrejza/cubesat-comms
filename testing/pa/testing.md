@@ -1,6 +1,6 @@
 ## CC1125 TX PA
 
-*Tek000002.png
+* Tek000002.png
 
 Expected power ?? dBm
 

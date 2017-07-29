@@ -1,5 +1,6 @@
 ## MMZ09332BT1 PA
 Note: subtract LED current from all current values
+Note: The tracking gen could have done with a zeroing, but it wasn't too far off. 
 ### No signal
 
 Current: 104.8 mA; 5V
@@ -14,8 +15,8 @@ Current: 104.8 mA; 5V
 | 0 | 26.7 | 26.7 | 501.8 |
 
 Cal: 10dBm on siggen gives 8.5dBm on specan
-1+dB BW - 115MHz - 170MHz
-see c.bmp; b.bmp
+1dB BW - 115MHz - 170MHz
+see c.png; b.png - frequency response
 
 Tek000003 - 10dBm into specan
 Tek000004 - -3dBm into PA into specan
@@ -40,12 +41,14 @@ Current: 151.4 mA; 5V
 | 7 | 21.5 | 14.5 | 122.4 |
 | 8 | 21.9 | 13.9 | 107.5 |
 
+About 21.4dBm out is the 1dB compression point
+
 Tek000006 - 8dBm in to PA
 Tek000007 - 5dBm in to PA
 Tek000008 - 0dBm into PA
 
 1dB BW - pretty wide, no matching components...
-see r.png; n.bmp
+see r.png; n.bmp - frequency response
 
 
 w.bmp - WTF cable?!

@@ -1,6 +1,7 @@
 ## CC1125 TX PA
 
 *Tek000002.png
+
 Expected power ?? dBm
 
 ## MMZ09332BT1 PA

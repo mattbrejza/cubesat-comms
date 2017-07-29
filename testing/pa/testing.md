@@ -58,7 +58,7 @@ Tek000008 - 0dBm into PA.
 
 see r.png; n.bmp - frequency response
 
-##Cable
+## Cable
 w.bmp - WTF cable?!
 
 This cable causes the nulls in the first frequency response images. It was used in the gain tables, however the nulls were not at the frequency used to test. Comparing the siggen stated power output and the specan stated input power, the gain figures are perhaps 1.5dB lower than they actually were

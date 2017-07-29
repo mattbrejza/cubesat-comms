@@ -1,3 +1,8 @@
+## CC1125 TX PA
+
+*Tek000002.png
+Expected power ?? dBm
+
 ## MMZ09332BT1 PA
 Note: subtract LED current from all current values.
 
@@ -9,7 +14,7 @@ Current: 104.8 mA; 5V
 
 ### 145MHz input
 
-|Input level| Output level|Gain|Current|
+|Input level (dBm)| Output level(dBm)|Gain (dB)|Current (mA)|
 |---|---|---|---|
 |-10 | 17.9 | 27.9 | 188.5 |
 |-20 | 9.69 | 29.69 | 115.1 |
@@ -36,7 +41,7 @@ Current: 151.4 mA; 5V
 
 ### 145MHz input
 
-|Input level| Output level|Gain|Current|
+|Input level (dBm)| Output level (dBm)|Gain (dB)|Current (mA)|
 |---|---|---|---|
 | -15 | 0.4 | 15.4 | 151.2 |
 | -5 | 10.4 | 15.4 | 149.9 |

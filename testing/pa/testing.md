@@ -23,9 +23,9 @@ Cal: 10dBm on siggen gives 8.5dBm on specan.
 see c.png; b.png - frequency response.
 
 
-Tek000003 - 10dBm into specan
-Tek000004 - -3dBm into PA into specan
-Tek000005 - -15dBm into PA into specan
+* Tek000003 - 10dBm into specan
+* Tek000004 - -3dBm into PA into specan
+* Tek000005 - -15dBm into PA into specan
 
 
 ## LHA1+
@@ -48,11 +48,9 @@ Current: 151.4 mA; 5V
 
 About 21.4dBm out is the 1dB compression point
 
-Tek000006 - 8dBm in to PA.
-
-Tek000007 - 5dBm in to PA.
-
-Tek000008 - 0dBm into PA.
+* Tek000006 - 8dBm in to PA.
+* Tek000007 - 5dBm in to PA.
+* Tek000008 - 0dBm into PA.
 
 1dB BW - pretty wide, no matching components...
 

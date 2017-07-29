@@ -1,6 +1,8 @@
 ## MMZ09332BT1 PA
-Note: subtract LED current from all current values
+Note: subtract LED current from all current values.
+
 Note: The tracking gen could have done with a zeroing, but it wasn't too far off. 
+
 ### No signal
 
 Current: 104.8 mA; 5V
@@ -14,9 +16,12 @@ Current: 104.8 mA; 5V
 | -5 | 22.6 | 27.6 | 315.5 |
 | 0 | 26.7 | 26.7 | 501.8 |
 
-Cal: 10dBm on siggen gives 8.5dBm on specan
-1dB BW - 115MHz - 170MHz
-see c.png; b.png - frequency response
+Cal: 10dBm on siggen gives 8.5dBm on specan.
+
+1dB BW - 115MHz - 170MHz.
+
+see c.png; b.png - frequency response.
+
 
 Tek000003 - 10dBm into specan
 Tek000004 - -3dBm into PA into specan
@@ -43,12 +48,17 @@ Current: 151.4 mA; 5V
 
 About 21.4dBm out is the 1dB compression point
 
-Tek000006 - 8dBm in to PA
-Tek000007 - 5dBm in to PA
-Tek000008 - 0dBm into PA
+Tek000006 - 8dBm in to PA.
+
+Tek000007 - 5dBm in to PA.
+
+Tek000008 - 0dBm into PA.
 
 1dB BW - pretty wide, no matching components...
+
 see r.png; n.bmp - frequency response
 
-
+##Cable
 w.bmp - WTF cable?!
+
+This cable causes the nulls in the first frequency response images. It was used in the gain tables, however the nulls were not at the frequency used to test. Comparing the siggen stated power output and the specan stated input power, the gain figures are perhaps 1.5dB lower than they actually were

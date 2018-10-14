@@ -7692,6 +7692,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="434.34" y="60.96" size="1.778" layer="91">&lt;&lt; SURE 3V3 SYS ?</text>
 <text x="431.8" y="109.22" size="1.778" layer="91">&lt;&lt; SURE 3V3 SYS ?</text>
 <text x="403.86" y="182.88" size="1.778" layer="91">NOTE! 3V3/SYS changed to 3V3/FMCU</text>
+<text x="287.02" y="106.68" size="1.778" layer="91">WHERE DO WE CONNECT THE CAM TO?</text>
+<text x="289.56" y="101.6" size="1.778" layer="91">WHERE DO WE CONNECT THE CAM TO?</text>
+<text x="304.8" y="71.12" size="1.778" layer="91" rot="R90">WHERE DO WE CONNECT THE CAM TO?</text>
 </plain>
 <instances>
 <instance part="IC9" gate="G$1" x="182.88" y="187.96" rot="R180"/>
